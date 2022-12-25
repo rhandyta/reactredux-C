@@ -12,7 +12,7 @@ function Shoes({ shoes, buyShoes }) {
 
 const mapStateToProps = (state) => {
     return {
-        shoes: state.stock,
+        shoes: state.shoes.stock,
     };
 };
 
